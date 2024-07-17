@@ -5,8 +5,38 @@
 }
 
 body {
-  margin-top: 50px;
   display: flex; 
   justify-content: center;
   align-items: center;
+}
+
+img.background {
+  height: 100vh;
+}
+
+.text-form-wrapper {
+  height: 100vh;
+  width: 900px;
+  display: flex; 
+  flex-direction: column;
+  background-color: #EAEDF0;
+  justify-content: center;
+}
+
+.action-wrapper {
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: 1px solid red;
+}
+.action-wrapper > p {
+  margin-bottom: 20px;
+}
+
+.form-card-wrapper {
+  background-color: white;
+  border: 1px solid red;
+}
+
+.footer {
+  border: 1px solid red;
 }

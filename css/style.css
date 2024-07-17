@@ -8,6 +8,7 @@ body {
   display: flex; 
   justify-content: center;
   align-items: center;
+  font-family: sans-serif;
 }
 
 img.background {
@@ -21,22 +22,38 @@ img.background {
   flex-direction: column;
   background-color: #EAEDF0;
   justify-content: center;
+  overflow: auto;
 }
 
 .action-wrapper {
   font-size: 1.4rem;
   font-weight: 600;
-  border: 1px solid red;
+  flex: 1; 
 }
 .action-wrapper > p {
+  margin-bottom: 40px;
+  margin-left: 30px;
+  padding-right: 120px;
+}
+
+.action-wrapper > p:first-child {
   margin-bottom: 20px;
+  margin-top: 12vh;
 }
 
 .form-card-wrapper {
+  padding: 10px 120px 30px 30px;
   background-color: white;
-  border: 1px solid red;
+  flex: 1; 
+}
+
+.form-card-wrapper h2 {
+  margin-bottom: 30px;
 }
 
 .footer {
-  border: 1px solid red;
+  padding-top: 30px;
+  margin-left: 30px;
+  flex: 1;
 }
+

@@ -1,3 +1,8 @@
+:root {
+  --main-green: #596D48; 
+  --hover-green: #4e603e
+}
+
 @font-face {
   font-family: "Norse-Bold";
   src: url("../fonts/Norse-Bold.woff2") format("woff2"), 
@@ -142,7 +147,7 @@ button[form="sign-up"] {
   padding: 10px 40px;
   color: white; 
   font-weight: 700;
-  background-color: #596D48;
+  background-color: var(--main-green);
   border: none;
   border-radius: 8px;
   box-shadow: 3px 2px 3px rgb(200, 200, 200);
@@ -151,7 +156,7 @@ button[form="sign-up"] {
 }
 
 button[form="sign-up"]:hover {
-  background-color: #4e603e;
+  background-color: var(--hover-green);
 }
 
 button[form="sign-up"]:active {
@@ -160,10 +165,10 @@ button[form="sign-up"]:active {
 
 .footer a {
   text-decoration: none;
-  color: #596D48; 
+  color: var(--main-green);  
   font-weight: 800;
 }
 
 .footer a:hover {
-  color: #4e603e; 
+  color: var(--hover-green); 
 }
